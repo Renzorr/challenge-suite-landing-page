@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Suite Landing Page - Frontend Mentor Challenge">
+    <meta name="description" content="Junior Frontend Mentor Challenge">
+    <link
+      rel="shortcut icon"
+      href="./public/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Suite Landing Page</title>
+  </head>
+  <body>
+    <h1 class="sr-only">Suite Landing Page</h1>
+    <header class="container">
+      <a href="/"
+        ><img
+          src="./public/img/logo.svg"
+          alt="Suite Logo"
+          width="79"
+          height="26"
+      /></a>
+      <a href="/" class="btn">Request Beta Access</a>
+    </header>
+
+    <section class="container hero">
+      <div class="hero-grid-left">
+        <img
+          src="./public/img/pattern-curved-line.svg"
+          alt=""
+          class="hero-pattern"
+        />
+        <div class="hero-content">
+          <h2 class="hero-title">
+            A <strong>super solution</strong> for your
+            <strong>business.</strong>
+          </h2>
+          <p>
+            Our marketing and sales automations help you scale your outreach to
+            get more leads for your company.
+          </p>
+          <a href="/" class="btn gradient">Request Beta Access</a>
+        </div>
+        <picture>
+          <source
+            media="(max-width: 770px)"
+            srcset="./public/img/image-hero-landscape.webp"
+            width="720"
+            height="490"
+          />
+          <img
+            src="./public/img/image-hero-portrait.webp"
+            alt=""
+            class="hero-background"
+            width="355"
+            height="609"
+          />
+        </picture>
+      </div>
+      <ul class="hero-grid-right">
+        <li class="stadistics">
+          <strong>2K+</strong>
+          <span>Companies</span>
+        </li>
+        <li class="stadistics">
+          <strong>8</strong>
+          <span>Languages</span>
+        </li>
+        <li class="stadistics">
+          <strong>1.2M</strong>
+          <span>Leads</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="container no-space">
+      <div class="testimonial">
+        <picture>
+          <source
+            media="(max-width: 770px)"
+            srcset="./public/img/image-jeremy-small.webp"
+          />
+          <img
+            src="./public/img/image-jeremy-large.webp"
+            alt="Jeremy picture"
+            class="testimonial-img"
+            width="360"
+            height="590"
+          />
+        </picture>
+        <div class="testimonial-content">
+          <h2 class="testimonial-title">It just <strong>works.</strong></h2>
+          <p>
+            “I really like how it is an all-in-one solution that handle many of
+            the tasks that you would normally need separate tools to do the same
+            job. This thing is a miracle worker.”
+          </p>
+          <div class="testimonial-details">
+            <strong> Jeremy Robinson </strong>
+            <span>CMO, Fylo </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer container">
+        <a href="/"
+          ><img
+            src="./public/img/logo.svg"
+            alt="Suite Logo"
+            width="79"
+            height="26"
+        /></a>
+        <p>Copyright - Suite</p>
+        <ul class="footer-links">
+          <li>
+            <a href="/" class="link">
+              <img
+                src="./public/img/icon-facebook.svg"
+                alt="Facebook Icon"
+                width="20"
+                height="20"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="/" class="link">
+              <img
+                src="./public/img/icon-twitter.svg"
+                alt="Twitter Icon"
+                width="20"
+                height="20"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="/" class="link">
+              <img
+                src="./public/img/icon-instagram.svg"
+                alt="Instagram icon"
+                width="20"
+                height="20"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
