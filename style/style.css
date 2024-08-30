@@ -158,9 +158,8 @@ header {
   color: var(--gray);
   text-transform: uppercase;
 
-  & strong {
+  & b {
     font-size: clamp(35px, 8vw, 50px);
-    font-weight: 700;
   }
 }
 
@@ -208,7 +207,7 @@ header {
   text-transform: uppercase;
   gap: 15px;
 
-  & strong {
+  & b {
     font-size: 18px;
   }
 
@@ -239,7 +238,7 @@ footer {
 }
 
 /* MEDIA QUERIES */
-@media (width <= 980px) {
+@media (width <=980px) {
   .hero {
     grid-template-columns: 1fr;
   }
@@ -275,7 +274,7 @@ footer {
   }
 }
 
-@media (width <= 770px) {
+@media (width <=770px) {
   .hero-background {
     position: inherit;
     max-width: 100%;
@@ -287,7 +286,7 @@ footer {
   }
 }
 
-@media (width <= 570px) {
+@media (width <=570px) {
   .hero-pattern {
     width: 40vw;
     left: 42vw;
